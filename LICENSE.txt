@@ -1,8 +1,8 @@
 Original version is copyright 2013 Adam Schwartz (MIT license).
   <https://github.com/adamschwartz/chrome-tabs>
 
-Refactoring, ehnhancements, and NPM module by @jaswsinc (GPL license).
-  <https://github.com/jaswsinc/chrome-tabs>
+Refactoring, ehnhancements, and NPM module by @src-works, @jaswrks (GPL license).
+  <https://github.com/src-works/chrome-tabs>
 
 ------------------------------------------------------------------------------------------------
 

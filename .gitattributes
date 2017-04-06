@@ -48,9 +48,12 @@
 
 *.css text
 *.js text
-*.css.map text
-*.js.map text
+*.ts text
+*.jsx text
+*.tsx text
 *.json text
+*.js.map text
+*.css.map text
 
 # Applescript
 
@@ -196,10 +199,9 @@
 *~ export-ignore
 *.bak export-ignore
 
-# Vendor
-# NOT excluded here.
+# TypeScript
 
-# vendor/ export-ignore
+typings/ export-ignore
 
 # Node
 
@@ -318,7 +320,8 @@ TODO.txt export-ignore
 README.md export-ignore
 README.mdown export-ignore
 README.markdown export-ignore
-README.txt export-ignore
+# README.txt export-ignore
+# Needed by WP themes/plugins.
 
 # CHANGELOG Files
 
@@ -433,6 +436,13 @@ CHANGELOG.txt﻿⁠⁠⁠⁠ export-ignore
 
 _ide.php export-ignore
 
+# TypeScript Files
+
+*.ts export-ignore
+*.d.ts -export-ignore
+typings.json export-ignore
+tsconfig.json export-ignore
+
 # Composer Files
 
 /composer.json export-ignore
@@ -454,10 +464,23 @@ _ide.php export-ignore
 *.scss export-ignore
 *.css.map export-ignore
 
-# Bourbon (in WS projects)
+# Bourbon-Related
 
 /src/client-s/**/bourbon/ export-ignore
-/src/vendor/websharks/*/src/client-s/**/bourbon/ export-ignore
+/src/vendor/*/*/src/client-s/**/bourbon/ export-ignore
+
+# Semantic UI-Related
+
+/semantic.json export-ignore
+/src/vendor/*/*/semantic.json export-ignore
+
+/src/client-s/semantic/src/** export-ignore
+/src/client-s/semantic/tasks/** export-ignore
+/src/client-s/semantic/gulpfile.js export-ignore
+
+/src/vendor/*/*/src/client-s/semantic/src/** export-ignore
+/src/vendor/*/*/src/client-s/semantic/tasks/** export-ignore
+/src/vendor/*/*/src/client-s/semantic/gulpfile.js export-ignore
 
 # Box / Phar
 

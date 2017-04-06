@@ -1,16 +1,16 @@
 {
-  "version": "1.0.3",
-  "name": "x-chrome-tabs",
+  "version": "1.0.0",
+  "name": "sw-chrome-tabs",
   "description": "Electron and/or browser compatible HTML/CSS and JS chrome tabs — with a jQuery wrapper. Tabbed interface, creates Electron tabs.",
   "license": "GPL-3.0",
-  "author": "jaswsinc",
+  "author": "src.works",
   "keywords": [
-    "jaswsinc",
+    "src.works",
     "electron",
     "chrome",
     "tabs"
   ],
-  "repository": "https://github.com/jaswsinc/chrome-tabs",
+  "repository": "https://github.com/src-works/chrome-tabs",
   "main": "./src/js/index.js",
   "dependencies": {
     "jquery": "^2.2.4 || ^3.0.0",
