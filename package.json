@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "sw-chrome-tabs",
+  "name": "@src-works/chrome-tabs",
   "description": "Electron and browser compatible HTML/CSS and JS chrome tabs — with a jQuery wrapper. Tabbed interface, creates Electron tabs.",
   "license": "GPL-3.0",
   "author": "src.works",
