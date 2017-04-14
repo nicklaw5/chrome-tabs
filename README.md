@@ -1,3 +1,3 @@
-## Electron Chrome Tabs
+## Chrome Tabs
 
-See: <<https://src.works/chrome-tabs>>
+See: [project overview](https://src.works/google-chrome-tabs-javascript-electron-webviews-iframes) @ ‹src.works/›™

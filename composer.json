@@ -2,7 +2,7 @@
   "name": "src-works/chrome-tabs",
   "homepage": "https://github.com/src-works/chrome-tabs",
   "description": "Electron and/or browser compatible HTML/CSS and JS chrome tabs — with a jQuery wrapper. Tabbed interface, creates Electron tabs.",
-  "keywords": ["src.works", "electron", "chrome", "tabs"],
+  "keywords": ["src.works", "jaswrks", "electron", "chrome", "tabs"],
 
   "type": "library",
   "license": "GPL-3.0+",
