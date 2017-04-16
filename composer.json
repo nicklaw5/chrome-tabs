@@ -20,23 +20,5 @@
   "support": {
     "source": "https://github.com/src-works/chrome-tabs",
     "issues": "https://github.com/src-works/chrome-tabs/issues"
-  },
-
-  "require": {},
-  "require-dev": {},
-
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-
-  "autoload": {
-    "psr-4": {},
-    "files": []
-  },
-
-  "config": {
-    "vendor-dir": "src/vendor",
-    "preferred-install": "dist"
-  },
-
-  "repositories": []
+  }
 }
